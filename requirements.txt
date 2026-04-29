@@ -1,0 +1,58 @@
+Portfolio Website of SM Mehedi Hasan
+Details of SM Mehedi Hasan
+S.M.Mehedi Hasan(popularly known as @webmehedi) is a distinguished technology entrepreneur, strategic leader, and community mentor in Bangladesh with over 20 years of experience in the IT sector.
+    LinkedIn
+LinkedIn
+    + 1
+⭐ Key Distinction: He is celebrated for bridging technical innovation with community empowerment, notably within the global freelancing landscape. 
+🏢 Business Leadership
+As a serial entrepreneur, he has founded and scaled multiple IT - focused ventures: 
+Managing Director at Coder71 Ltd.: Since 2015, he has led this full - service IT solutions firm, specializing in custom software, mobile apps, and web development.
+    Co - Founder of Founders Hub: A platform dedicated to supporting early - stage startups and entrepreneurs.
+Former Roles: Previously served as CEO & Chairperson of BD Web Solutions and held senior roles at Bashundhara Group and international firms in New York and the UK.
+    LinkedIn
+LinkedIn
+    + 2
+🌍 Community & Public Service
+His influence extends beyond business into leadership and economic advocacy:
+2025 President of JCI Dhaka Founders: Under his presidency, the chapter achieved massive success, including 8 impactful projects and 13 + global engagements, earning him the Star Local President Award 2025.
+Fiverr Bangladesh Community Leader: From 2022 to 2025, he served as an official community leader for Fiverr, mentoring thousands of Bangladeshi freelancers and completing over 5,000 orders personally.
+BASIS Member: He is a general member of the Bangladesh Association of Software and Information Services(BASIS), contributing to national IT policy discussions.
+    Facebook
+Facebook
+    + 4
+🛠️ Expertise & Impact
+Technical Stack: Expert in end - to - end digital transformation, specializing in custom - built digital products for retail, e - commerce, and manufacturing.
+    Philosophy: He champions the idea that "Your network is your net worth," focusing on building a chain of leaders who support each other.
+        Advocacy: A vocal advocate for freelancing freedom, he often shares his journey from a struggling programmer to a top - rated seller to inspire the youth. 
+🔗 Connect with Him
+Official Website / Portfolio: @webmehedi
+Professional Networking: LinkedIn Profile
+Business Inquiries: Coder71 Ltd.Official Page 
+
+
+
+
+Pages with Sections:
+- Home
+    - Hero Section
+    - Stats Section
+    - About Me section
+    - Career Timeline
+    - Career Journey
+    - Behind the Scene Gallery
+    - Media and Talks
+    - Footer with CTA
+
+- About Me
+- Blogs
+ - Blog Details
+- Gallery
+- Contact
+
+
+
+Font Family for design
+
+Display and title - Bebas Neue
+Body - Inter
