@@ -72,7 +72,7 @@ export default function CareerJourney() {
                   <span className="text-[#ABB7AA]/40 text-sm md:text-base tracking-widest leading-none">
                     {item.date}
                   </span>
-                  <h3 className="text-2xl md:text-4xl lg:text-[2.6rem] text-[#ABB7AA] leading-tight mt-1 tracking-wide">
+                  <h3 className="text-4xl md:text-4xl lg:text-[2.6rem] text-[#ABB7AA] leading-tight mt-1 tracking-wide">
                     {item.title}
                   </h3>
                   <span className="text-[#ABB7AA] text-lg md:text-[24px] tracking-wider mt-1 uppercase">
