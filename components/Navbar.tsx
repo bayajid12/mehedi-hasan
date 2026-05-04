@@ -16,11 +16,11 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 w-full z-50 px-6 md:px-16 py-6 font-bebas text-lg tracking-wider">
+    <nav className="absolute top-0 w-full z-50 px-6 md:px-16 py-6 font-bebas text-lg tracking-wider text-white/80">
       <div className="flex justify-between items-center w-full">
         {/* Mobile Hamburger Button */}
         <button 
-          className="lg:hidden text-white hover:text-gray-300" 
+          className="lg:hidden hover:text-white transition-colors" 
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}

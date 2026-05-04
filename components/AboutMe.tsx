@@ -19,13 +19,13 @@ export default function AboutMe() {
   ];
 
   return (
-    <section className="w-full bg-black py-24 px-8 md:px-16 lg:px-24 flex flex-col items-center">
+    <section className="w-full bg-black py-[180px] px-8 md:px-16 lg:px-24 flex flex-col items-center">
       <div className="max-w-[1400px] w-full flex flex-col gap-16">
         {/* Top Content Row */}
-        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-12">
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-12 reveal">
           {/* Left Title Area */}
           <div className="flex flex-col max-w-2xl">
-            <span className="font-bebas text-xl md:text-2xl text-gray-400 tracking-widest mb-2">
+            <span className="font-bebas text-xl md:text-2xl text-[#ABB7AA]/50 tracking-normal mb-2">
               ABOUT ME
             </span>
             <h2 className="font-bebas text-5xl md:text-7xl lg:text-[5.5rem] leading-[0.85] text-sage tracking-wide uppercase">
@@ -37,14 +37,14 @@ export default function AboutMe() {
 
           {/* Right Description Area */}
           <div className="max-w-xl pb-2">
-            <p className="font-inter text-gray-300 text-sm md:text-base leading-relaxed font-light">
+            <p className="font-inter text-[#ABB7AA]/90 text-sm md:text-base leading-relaxed font-light">
               With over two decades in the software industry, S M Mehedi Hasan has been at the forefront of technology innovation in Bangladesh and beyond. As Managing Director of Coder71 Ltd, he has led the delivery of 500+ software projects for clients spanning four continents. His journey from a passionate developer to a technology entrepreneur reflects a deep commitment to quality, innovation, and community. As the 2025 President of JCI Dhaka Founders, he continues to inspire the next generation of tech leaders.
             </p>
           </div>
         </div>
 
         {/* Bottom Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full reveal">
           {cards.map((card, index) => (
             <div key={index} className="flex flex-col gap-4 group cursor-pointer">
               {/* Image Container with Hover Effect */}
@@ -59,7 +59,7 @@ export default function AboutMe() {
               
               {/* Card Title */}
               <div className="text-center">
-                <h3 className="font-bebas text-xl md:text-2xl tracking-wide text-gray-200 group-hover:text-white transition-colors duration-300">
+                <h3 className="font-bebas text-xl md:text-2xl tracking-wide text-[#ABB7AA] group-hover:text-white transition-colors duration-300">
                   {card.title}
                 </h3>
               </div>
