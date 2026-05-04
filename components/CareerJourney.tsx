@@ -38,15 +38,20 @@ export default function CareerJourney() {
 
         {/* Timeline Container */}
         <div className="relative w-full max-w-5xl">
-          {/* Vertical Center Line */}
-          <div className="absolute left-1/2 top-0 bottom-0 w-[1px] bg-[#ABB7AA]/20 -translate-x-1/2 hidden md:block"></div>
-
           <div className="flex flex-col gap-16 md:gap-0">
             {journeyData.map((item, index) => (
               <div 
                 key={index} 
                 className={`flex flex-col md:flex-row items-start justify-center md:min-h-[200px] relative reveal`}
               >
+                {/* Vertical Line Segment (Desktop Only) */}
+                <div className="absolute left-1/2 top-0 bottom-0 -translate-x-1/2 hidden md:block w-[6px] pointer-events-none">
+                  {/* Top segment - Always show to ensure continuous line from top */}
+                  <div className="w-full bg-[#ABB7AA]/20 h-1/2"></div>
+                  {/* Bottom segment - Hide only for the last item */}
+                  <div className={`w-full bg-[#ABB7AA]/20 ${index === journeyData.length - 1 ? "h-0" : "h-1/2"}`}></div>
+                </div>
+
                 {/* Logo Box (Centered on desktop) */}
                 <div className="z-10 w-20 h-20 bg-white rounded-xl overflow-hidden shadow-2xl border border-gray-800 flex-shrink-0 md:absolute md:left-1/2 md:-translate-x-1/2">
                   <Image
