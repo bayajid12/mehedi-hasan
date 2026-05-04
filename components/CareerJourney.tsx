@@ -40,8 +40,8 @@ export default function CareerJourney() {
         <div className="relative w-full max-w-5xl">
           <div className="flex flex-col gap-16 md:gap-0">
             {journeyData.map((item, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className={`flex flex-col md:flex-row items-start justify-center md:min-h-[200px] relative reveal`}
               >
                 {/* Vertical Line Segment (Desktop Only) */}
@@ -65,15 +65,14 @@ export default function CareerJourney() {
                 </div>
 
                 {/* Content Area */}
-                <div className={`w-full md:w-1/2 mt-6 md:mt-0 flex flex-col ${
-                  item.side === "left" 
-                    ? "md:pr-24 md:items-end md:text-right md:ml-0 md:mr-auto" 
+                <div className={`w-full md:w-1/2 mt-6 md:mt-0 flex flex-col ${item.side === "left"
+                    ? "md:pr-24 md:items-end md:text-right md:ml-0 md:mr-auto"
                     : "md:pl-24 md:items-start md:text-left md:mr-0 md:ml-auto"
-                }`}>
+                  }`}>
                   <span className="text-[#ABB7AA]/40 text-sm md:text-base tracking-widest leading-none">
                     {item.date}
                   </span>
-                  <h3 className="text-2xl md:text-4xl lg:text-[2.6rem] text-[#ABB7AA] leading-tight mt-1 font-bold tracking-wide">
+                  <h3 className="text-2xl md:text-4xl lg:text-[2.6rem] text-[#ABB7AA] leading-tight mt-1 tracking-wide">
                     {item.title}
                   </h3>
                   <span className="text-[#ABB7AA] text-lg md:text-[24px] tracking-wider mt-1 uppercase">

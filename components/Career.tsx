@@ -29,11 +29,10 @@ export default function Career() {
     <section className="w-full bg-[#E2E2DF] py-[180px] px-8 md:px-16 lg:px-24 flex flex-col items-center">
       <div className="max-w-[1400px] w-full flex flex-col">
         {careerData.map((item, index) => (
-          <div 
-            key={index} 
-            className={`flex flex-col lg:flex-row justify-between items-start py-12 gap-12 reveal ${
-              index !== 0 ? "border-t border-[#ABB7AA]/30" : ""
-            }`}
+          <div
+            key={index}
+            className={`flex flex-col lg:flex-row justify-between items-start py-12 gap-12 reveal ${index !== 0 ? "border-t border-[#ABB7AA]/30" : ""
+              }`}
           >
             {/* Left Content Area */}
             <div className="flex flex-col md:flex-row gap-8 items-start lg:w-[60%]">
@@ -53,7 +52,7 @@ export default function Career() {
                 <span className="text-[#838C83] text-sm md:text-base tracking-normal leading-none">
                   {item.date}
                 </span>
-                <h3 className="text-4xl md:text-5xl lg:text-[4rem] font-bold text-[#2B2B2F] leading-[0.9] mt-3 tracking-wide">
+                <h3 className="text-4xl md:text-5xl lg:text-[4rem]  text-[#2B2B2F] leading-[0.9] mt-3 tracking-wide">
                   {item.title}
                 </h3>
                 <span className="text-[#838C83] text-xl md:text-[32px] tracking-normal mt-2">
