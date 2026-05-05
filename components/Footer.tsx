@@ -58,8 +58,8 @@ export default function Footer() {
 
           {/* Schedule Button */}
           <a href="#" className="flex items-center justify-center gap-3 px-8 h-16 w-full md:w-[420px] rounded-full bg-[#9cb1a4] hover:bg-sage/80 text-[#111] transition-colors shadow-lg">
-            <Calendar size={18} fill="currentColor" />
-            <span className="font-bebas text-xl pt-1 tracking-normal">
+            <Calendar size={21} fill="currentColor" />
+            <span className="font-bebas text-2xl pt-1 tracking-normal">
               SCHEDULE A MEETING
             </span>
           </a>

@@ -52,7 +52,7 @@ export default function Career() {
                 <span className="text-[#838C83] text-sm md:text-base tracking-normal leading-none">
                   {item.date}
                 </span>
-                <h3 className="text-4xl md:text-5xl lg:text-[4rem]  text-[#2B2B2F] leading-[0.9] mt-3 tracking-wide">
+                <h3 className={`text-4xl md:text-5xl lg:text-[4rem] text-[#2B2B2F] leading-[0.9] mt-3 ${index === careerData.length - 1 ? "tracking-[0px] md:tracking-[-2px]" : "tracking-[-2px]"}`}>
                   {item.title}
                 </h3>
                 <span className="text-[#838C83] text-xl md:text-[32px] tracking-normal mt-2">
