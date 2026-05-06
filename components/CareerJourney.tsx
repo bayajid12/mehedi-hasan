@@ -2,21 +2,21 @@ import Image from "next/image";
 
 const journeyData = [
   {
-    logo: "/images/store-logo.png",
+    logo: "/images/Wristbands House Bangladesh.png",
     date: "NOV 2013 - FEB 2016",
     title: "GENERAL MANAGER",
     company: "WRISTBANDS HOUSE BANGLADESH",
     side: "left"
   },
   {
-    logo: "/images/bashundhara-logo.png",
+    logo: "/images/Boshundhara Group.png",
     date: "AUG 2011 - OCT 2013",
     title: "DEPUTY MANAGER (SOFTWARE)",
     company: "BOSHUNDHARA GROUP",
     side: "right"
   },
   {
-    logo: "/images/bdweb-logo.png",
+    logo: "/images/BD WEB Solution.png",
     date: "MARCH 2010 - OCTOBER 2013",
     title: "CEO & CHAIRPERSON",
     company: "BD WEB SOLUTION",
@@ -66,8 +66,8 @@ export default function CareerJourney() {
 
                 {/* Content Area */}
                 <div className={`w-full md:w-1/2 mt-6 md:mt-0 flex flex-col ${item.side === "left"
-                    ? "md:pr-24 md:items-end md:text-right md:ml-0 md:mr-auto"
-                    : "md:pl-24 md:items-start md:text-left md:mr-0 md:ml-auto"
+                  ? "md:pr-24 md:items-end md:text-right md:ml-0 md:mr-auto"
+                  : "md:pl-24 md:items-start md:text-left md:mr-0 md:ml-auto"
                   }`}>
                   <span className="text-[#ABB7AA]/40 text-sm md:text-base tracking-widest leading-none">
                     {item.date}
