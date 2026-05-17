@@ -30,7 +30,7 @@ export default function Footer() {
 
         {/* Short description */}
         <p className="font-inter text-[#ABB7AA] text-sm md:text-base font-light text-center max-w-xl mt-8">
-          Whether you need a technology partner, strategic advisor, or a mentor — I'd love to hear from you.
+          Whether you need a technology partner, strategic advisor, or a mentor — I&apos;d love to hear from you.
         </p>
 
         {/* Buttons Row */}

@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 const blogPosts = [
   {
@@ -11,7 +12,7 @@ const blogPosts = [
   {
     category: "JCI DHAKA FOUNDERS",
     title: "OVER THE COURSE OF THE YEAR, THE CLOSE BOND I'VE BUILT WITH NAHID",
-    image: "https://images.unsplash.com/photo-1475721025505-c310742fef06?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
   },
   {
     category: "AWARDS AT NATCON 2025",
@@ -64,31 +65,32 @@ export default function BlogPage() {
       <section className="px-6 md:px-16 lg:px-24 py-24 flex flex-col items-center">
         <div className="max-w-[1400px] w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 reveal">
           {posts.map((post, index) => (
-            <div 
-              key={index} 
-              className="flex flex-col border border-[#CDD2D8] rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer bg-[#E3E3DF] group"
-            >
-              {/* Card Image */}
-              <div className="relative w-full aspect-[4/3] bg-gray-200 overflow-hidden">
-                <Image 
-                  src={post.image} 
-                  alt={post.title}
-                  fill
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  unoptimized={true}
-                />
+            <Link href={`/blogs/${post.id}`} key={index}>
+              <div 
+                className="flex flex-col border border-[#CDD2D8] rounded-2xl overflow-hidden hover:shadow-xl transition-shadow duration-300 cursor-pointer bg-[#E3E3DF] group h-full"
+              >
+                {/* Card Image */}
+                <div className="relative w-full aspect-[4/3] bg-gray-200 overflow-hidden">
+                  <Image 
+                    src={post.image} 
+                    alt={post.title}
+                    fill
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    unoptimized={true}
+                  />
+                </div>
+                
+                {/* Card Content */}
+                <div className="p-5 md:p-6 flex flex-col flex-grow">
+                  <span className="font-bebas text-[#191919]/50 text-[18px] font-normal tracking-wider uppercase mb-2 line-clamp-1">
+                    {post.category}
+                  </span>
+                  <h3 className="font-bebas text-[28px] leading-[1.1] text-[#111111] uppercase line-clamp-2">
+                    {post.title}
+                  </h3>
+                </div>
               </div>
-              
-              {/* Card Content */}
-              <div className="p-5 md:p-6 flex flex-col flex-grow">
-                <span className="font-bebas text-[#191919]/50 text-[18px] font-normal tracking-wider uppercase mb-2 line-clamp-1">
-                  {post.category}
-                </span>
-                <h3 className="font-bebas text-[28px] leading-[1.1] text-[#111111] uppercase line-clamp-2">
-                  {post.title}
-                </h3>
-              </div>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
